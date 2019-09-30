@@ -147,9 +147,9 @@ export const IndexPageTemplate = ({
                   <Contact />
                 </Fade>
               </div>
-              <div id="Footer" className="page">
+             
                 <Fade>
-                  <div className="columns">
+                  <div style={{marginBottom: 20, marginTop: 20}} className="columns">
                     <div className="column">
                       <img src={Logo} alt="noposit" style={{ width: 100 }} />
                     </div>
@@ -164,7 +164,7 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                 </Fade>
-              </div>
+              
             </div>
           </div>
         </div>
