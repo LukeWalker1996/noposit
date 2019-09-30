@@ -72,6 +72,6 @@
 //     }
 //   }
 // `
+import NotFound from '../pages/404';
 
-
-export default null;
+export default NotFound;
