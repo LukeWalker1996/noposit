@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import NotFound from '../pages/404';
 
 export const ProductPageTemplate = ({
   image,
@@ -156,7 +157,9 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+//export default ProductPage
+
+export default NotFound;
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {

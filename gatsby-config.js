@@ -1,8 +1,14 @@
+
+const terms = require('./terms-and-conditions');
+
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+		title: 'The simple alternative to paying a cash deposit | NoPosit',
+		author: 'Innovate Web Solutions',
+		imageUrl: 'https://iws-image-repo.s3-eu-west-1.amazonaws.com/noposit-seo.jpg',
+		description: 'Reposit – The tenancy deposit alternative',
+    keywords: `Student, Deposit, No Deposit, my deposits, Rent With Zero Deposit, Pay Zero Deposit, zerodeposit, Sturents, reposit.com‎, NSHEP, Student housing `,
+    terms: terms
   },
   plugins: [
     'gatsby-plugin-react-helmet',

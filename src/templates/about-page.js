@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import NotFound from '../pages/404';
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -49,7 +50,7 @@ AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+//export default AboutPage
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
@@ -61,3 +62,7 @@ export const aboutPageQuery = graphql`
     }
   }
 `
+
+
+
+export default NotFound;
