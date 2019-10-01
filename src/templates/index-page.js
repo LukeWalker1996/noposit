@@ -14,6 +14,7 @@ import AboutUs from "../components/About-us";
 import Benefits from "../components/benefits";
 import Logo from "../img/white-on-colour.svg";
 import Helmet from "react-helmet";
+import About from "./about";
 
 export const IndexPageTemplate = ({
   image,
@@ -134,6 +135,7 @@ export const IndexPageTemplate = ({
               </div>
               <div id="About" className="page">
                 <Fade>
+                  <About />
                   <AboutUs />
                 </Fade>
               </div>

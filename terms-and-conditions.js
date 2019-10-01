@@ -5,7 +5,7 @@ module.exports =  `
 		CLAUSE 8 (LIMITATION OF LIABILITY).
 	</p>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		1. Particulars
 	</p>
@@ -304,7 +304,7 @@ module.exports =  `
 	</div>
 	<div>
 	</div>
-	<div style="margin-top: 10px; margin-bottom: 10px">
+	<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 		<p>
 			2. Interpretation
 		</p>
@@ -469,7 +469,7 @@ module.exports =  `
 </div>
 <div>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		3. Basis of contract
 	</p>
@@ -543,7 +543,7 @@ module.exports =  `
 </div>
 <div>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		4. Supply of Benefits
 	</p>
@@ -572,7 +572,7 @@ module.exports =  `
 </div>
 <div>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		5. Tenant's obligations
 	</p>
@@ -724,7 +724,7 @@ module.exports =  `
 	</div>
 	<div>
 	</div>
-	<div style="margin-top: 10px; margin-bottom: 10px">
+	<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 		<p>
 			6. Price and payment
 		</p>
@@ -818,7 +818,7 @@ module.exports =  `
 <div>
 	<div>
 	</div>
-	<div style="margin-top: 10px; margin-bottom: 10px">
+	<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 		<p>
 			7. Limitation of liability: THE TENANT'S ATTENTION IS PARTICULARLY
 			DRAWN TO THIS CLAUSE.
@@ -886,7 +886,7 @@ module.exports =  `
 </div>
 <div>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		8. Termination
 	</p>
@@ -928,7 +928,7 @@ module.exports =  `
 </div>
 <div>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		9. Consequences of termination
 	</p>
@@ -952,7 +952,7 @@ module.exports =  `
 		before the date of termination or expiry.
 	</p>
 </div>
-<div style="margin-top: 10px; margin-bottom: 10px">
+<div style="margin-top: 10px; margin-bottom: 10px; font-weight: 600!important">
 	<p>
 		10. General
 	</p>
