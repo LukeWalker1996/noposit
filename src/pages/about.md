@@ -1,5 +1,9 @@
 ---
-templateKey: 'about'
-title: About
-body: test
+templateKey: about
+title: About Us
 ---
+We noticed that the cost of moving into a student home was rising sharply. Seldom can a student afford before moving in 5 weeks rent as a deposit and to pay the first few weeks rent upfront.
+
+So, We created **NoPosit**. The simple easy alternative to paying a chunk of your hard-earned cash as a deposit.
+
+This puts more money in your pocket at the start of the academic year for all those student essentials, Books, Study Materials And Freshers Nights Out!
