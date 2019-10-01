@@ -7,9 +7,10 @@ const TermsAndConditions = () => (
     query={graphql`
       query termsSections {
         markdownRemark(frontmatter: { templateKey: { eq: "terms-and-conditions" }}){
+            id
+            html
             frontmatter {
                 title
-                body
             }
         }
       }
@@ -26,8 +27,8 @@ const TermsAndConditions = () => (
                   <div className="column is-10 is-offset-1">
                     <div className="page">
                       <div>
-                        <h1 className="title">Terms &amp; Conditions</h1>
-                        <div className="terms-conditions" dangerouslySetInnerHTML={{__html: data.markdownRemark.frontmatter.body}} />
+                        <h1 className="title">{data.markdownRemark.frontmatter.title}</h1>
+                        <div className="terms-conditions" dangerouslySetInnerHTML={{__html: data.markdownRemark.html}} />
                         <div style={{marginTop: 25}}>
                           <Link to="/" className="submit-btn">Back to home</Link>
                         </div>

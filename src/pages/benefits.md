@@ -2,7 +2,7 @@
 templateKey: benefits
 title: The Benefits
 ---
-We thought that the benefits would be straight forward. Pay less for deposit and keep more money in your pocket. However, we thought that we could do better. So NoPosit also includes*
+We thought that the benefits would be straight forward. Pay less for deposit and keep more money in your pocket. However, we thought that we could do better. So NoPosit also includes*<br/><br/>
 
 *  £3000 worth of personal items cover
 *  £2000 laptop cover
@@ -12,5 +12,6 @@ We thought that the benefits would be straight forward. Pay less for deposit and
 *  Free membership to our exclusive Premium Discount Club
 *  The change to Win your households rent paid for you with our monthly draw
 *  And more still being added
+<br/><br/>
 
 \* Yes there are going to be some Terms and Conditions to everything. Click [Here](/terms-and-conditions) to read all the boring legal bits.

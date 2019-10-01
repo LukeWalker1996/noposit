@@ -7,18 +7,25 @@ const About = () => {
       query={graphql`
         query aboutSection {
           markdownRemark(frontmatter: { templateKey: { eq: "about" } }) {
+            id
+            html
             frontmatter {
               title
-              body
             }
           }
         }
       `}
-      render={d => {
-        console.log("static query");
-        console.log(d);
-        return <div>
-        </div>;
+      render={data => {
+        return (
+          <div>
+            <h2 className="title">{data.markdownRemark.frontmatter.title}</h2>
+            <div className="card">
+              <div className="card-content">
+                <div dangerouslySetInnerHTML={{__html: data.markdownRemark.html}} />
+              </div>
+            </div>
+          </div>
+        );
       }}
     />
   );

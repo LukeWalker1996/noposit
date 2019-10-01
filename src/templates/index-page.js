@@ -2,16 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 
-import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
+// import Layout from "../components/Layout";
+// import Features from "../components/Features";
+// import BlogRoll from "../components/BlogRoll";
 
 import SiteWrapper from "../components/site-wrapper";
 import Home from "../components/Home";
 import Fade from "react-reveal/Fade";
 import Contact from "../pages/contact/index";
-import AboutUs from "../components/About-us";
-import Benefits from "../components/benefits";
+import Benefits from "./benefits";
 import Logo from "../img/white-on-colour.svg";
 import Helmet from "react-helmet";
 import About from "./about";
@@ -136,12 +135,12 @@ export const IndexPageTemplate = ({
               <div id="About" className="page">
                 <Fade>
                   <About />
-                  <AboutUs />
+                
                 </Fade>
               </div>
               <div id="Benefits" className="page">
                 <Fade>
-                  <Benefits />
+              <Benefits />
                 </Fade>
               </div>
               <div id="Contact" className="page">
